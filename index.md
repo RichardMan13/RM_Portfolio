@@ -4,6 +4,13 @@
 
 * Created a model for prevent fraudulent credit card transactions so that customers are not charged for items that they did not purchase.
 * The data was acquire in kaggle.com(see the code references).
-* Undersample technique was used for treat the unbalanced data.
+* Undersample technique was used for treat the unbalanced data and compare without using the technique.
 * Logistic Regression using GridsearchCV to reach the best model.
-* The model reach a recall score of 0.96 on the test data.
+* The model reach a recall score of **0.96** on the test data, against **0.61** without undersample.
+
+### Confusion Matrix on Undersample test data
+![Confusion Matrix on Undersample test data](/images/cm_1.png)
+### ROC Curve on Undersample test data
+![ROC Curve on Undersample test data](/images/roc_1.png)
+
+
