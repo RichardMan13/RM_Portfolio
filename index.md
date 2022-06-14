@@ -1,6 +1,6 @@
 # Ricardo Junior Firoavante - Portfolio
 
-## 1. Credit Card Fraud Detection
+## [1. Credit Card Fraud Detection](https://github.com/RichardMan13/credit_card_fraud_detection)
 
 * Created a model for prevent fraudulent credit card transactions so that customers are not charged for items that they did not purchase.
 * The data was acquire in kaggle.com(see the code references).
