@@ -17,4 +17,7 @@
 
 * The data was scraping using scrapy on [imobiliariaativa](https://www.imobiliariaativa.com.br) website and save using postgresql.
 * A EDA was made using jupyter notebook for features selection.
-* The Linear Regression model reach a R2 of **0.71** and RMSE of **0.30**(the data was rescale using log).
+* The mlflow was use for Linear Regression model witch reach a R2 of **0.71** and RMSE of **0.30**(the data was rescale using log).
+
+### Residual Error
+![Residual Error of model](/images/residual_error_real_estate.png)
