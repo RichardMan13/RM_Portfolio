@@ -22,3 +22,16 @@
 
 ### Scatter Plot Of Predictions Against Real Values
 ![Scatter Plot Of Predictions Against Real Values](/images/pred_vs_real_values.png)
+
+## [3. Predicting Loan Payback ](https://github.com/RichardMan13/Predicting-Loan-Payback)
+
+* Created a model to predict the probability of a borrower paying back their loan, aiding in risk assessment.
+* The data was processed using advanced feature engineering, including log transformations and interaction features like loan_to_income.
+* Utilized Optuna for Bayesian Hyperparameter Optimization to tune XGBoost, Logistic Regression, and MLP models.
+* Implemented a Stacking Ensemble (StackingClassifier) combining the strengths of tree-based, linear, and neural network models.
+* The model achieved a ROC AUC score of **0.918** on the validation set using Stratified K-Fold Cross-Validation.
+
+### ROC Curve of Stacking Ensemble
+![ROC Curve of Stacking Ensemble](/images/roc_curve_stacking.png)
+
+
